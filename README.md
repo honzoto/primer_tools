@@ -10,14 +10,14 @@ This script combines the chromosomes of each accession into one FASTA file named
 ### oligo_expander.py
 Takes a set of sequences containing non ACTG bases and creates a new file holding all the expanded versions of the sequence.
 
-Sample input:
->sample_seq
+Sample input
+\>sample_seq
 ACGCATWCA
 
-Sample output:
->sample_seq~1
+Sample output
+\>sample_seq\~1
 ACGCATACA
->sample_seq~2
+\>sample_seq\~2
 ACGCATTCA
 
 USAGE: oligo_expander.py <input.fasta>
