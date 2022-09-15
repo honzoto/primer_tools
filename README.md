@@ -41,7 +41,10 @@ BASIC USAGE: get_locations.py -i <primerfile> -r <referencefile>
 Accepts a FASTA file <primer file> (resembling the primers/controls within a reaction kit) and does a complete biophysical/biochemical evaluation. Generates a summary file with homodimer formation (dG) and Tm values, as well as a heterodimer formation matrix in csv format.
 
 Tm estimations are calculated based on Allawi-1997 publication, and dG estimations are calculated based on SantaLucia-1996 publications, identifying constants for thermodynamic properties through kmer profiling. Values are corrected based on IDT's OligoAnalyzer tool, using the following concentrations: 
-[oligo]=0.25uM, [Na+]=20mM, [Mg2+]=4.5mM, [dNTP]=0.75mM
+- [oligo]=0.25uM
+- [Na+]=20mM
+- [Mg2+]=4.5mM
+- [dNTP]=0.75mM
 
 USAGE: dimer_tester.py <primer file>
 
