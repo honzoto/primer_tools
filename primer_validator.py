@@ -6,7 +6,7 @@ from Bio import SeqIO
 
 version = "1.1"
 program = Path(__file__).name
-print(f"Starting Honzo's {program} v{version} for validating Norgen primers")
+print(f"Starting Honzo's {program} v{version} for validating primers")
 
 # Variable declarations
 tf_partialhd = False
